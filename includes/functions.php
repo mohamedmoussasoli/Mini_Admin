@@ -10,7 +10,7 @@ function escape ($string) {
 
 function hashed ($password) {
     $hash = "ajsdhgiasdg657653762411&^%$&^%76";
-    $password = sha1($password.$hash);
+    $password = sha1($password,$hash);
     return $password;
 }
 
